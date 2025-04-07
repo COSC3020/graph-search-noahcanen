@@ -26,6 +26,15 @@ the function and run automatically when you commit through a GitHub action.
 What is the worst-case big $\Theta$ complexity of your implementation? Add your
 answer, including your reasoning, to this markdown file.
 
+
+The worst-case big Θ complexity of your implementation is Θ(E+V) because this is when we searched through all possible vertexes and edges inside of the graph. 
+
+
+
 ## Bonus
 
 Implement and analyze breadth-first search.
+
+For this assignment, I used the resources of https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/includes, https://www.tutorialspoint.com/data_structures_algorithms/depth_first_traversal.htm, https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/push, https://www.w3schools.com/js/js_loop_forin.asp,
+
+"I certify that I have listed all sources used to complete this exercise, including the use of any Large Language Models. All of the work is my own, except where stated otherwise. I am aware that plagiarism carries severe penalties and that if plagiarism is suspected, charges may be filed against me without prior notice."

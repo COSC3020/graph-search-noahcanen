@@ -25,4 +25,4 @@ assert(JSON.stringify(depthFirstSearch(test3, 0, 5)) == JSON.stringify([0, 1, 2,
 
 test4 = []
 
-assert(JSON.stringify(depthFirstSearch(test3, 0, 5)) == JSON.stringify([]))
+assert(JSON.stringify(depthFirstSearch(test4, 0, 5)) == JSON.stringify([]))

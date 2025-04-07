@@ -8,7 +8,7 @@ test1 = [[1],[2],[3],[4],[5]] // 1 -> 2 -> 3 -> 4 -> 5
 assert(JSON.stringify(depthFirstSearch(test1, 0, 0)) == JSON.stringify([0]))
 assert(JSON.stringify(depthFirstSearch(test1, 0, 5)) == JSON.stringify([0, 1, 2, 3, 4, 5]))
 
-test1 = [[1,2],[3,5],[4],[5]] 
+test2 = [[1,2],[3,5],[4],[5]] 
 
 assert(JSON.stringify(depthFirstSearch(test2, 0, 5)) == JSON.stringify([0, 1, 5]))
 assert(JSON.stringify(depthFirstSearch(test2, 5, 0)) == JSON.stringify([]))
